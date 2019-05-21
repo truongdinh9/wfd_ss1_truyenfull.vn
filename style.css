@@ -20,15 +20,16 @@ body{
     width: 10%;
     height: 900px;
     background-color: coral;
+    position: fixed;
     float: left;
 }
 
 .content {
-    background-color: chartreuse;
+    background-color: wheat;
     margin-top: 100px;
     width: 90%;
     height: 900px;
-    float: left;
+    float: right;
 }
 
 #search {
