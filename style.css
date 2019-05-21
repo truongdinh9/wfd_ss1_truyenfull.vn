@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.header {
+    background-color: burlywood;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    top: 0;
+}
+.header a{
+    color: red;
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+.left {
+    margin-top: 100px;
+    width: 10%;
+    height: 900px;
+    background-color: coral;
+    float: left;
+}
+
+.content {
+    background-color: chartreuse;
+    margin-top: 100px;
+    width: 90%;
+    height: 900px;
+    float: left;
+}
+
+#search {
+    /*float: right;*/
+    /*padding-top: 15px;*/
+    position: absolute;
+    top: 10px;
+    right: 90px;
+}
+#searchbt {
+    text-align: center;
+    /*padding-top: 15px;*/
+    /*float: right;*/
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+.sach {
+    width: 22%;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+}
+.sach img{
+    width: 100%;
+    height: 100%;
+}
+.left a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+
+}
